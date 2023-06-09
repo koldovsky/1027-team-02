@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-theme-color: rgb(33, 36, 61);
+    --main-text-color: rgb(102, 102, 102);
+    --main-text-font: Ubuntu, sans-serif;
+    --main-titles-font: Rajdhani, sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
