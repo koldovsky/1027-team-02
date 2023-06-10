@@ -13,17 +13,60 @@
                 have had successful collaborations in the domains mentioned below:
             </p>
             <ul class="industries__domains-list">
-                <li class="industries__domain-item">Healthcare</li>
-                <li class="industries__domain-item">Internet of things</li>
-                <li class="industries__domain-item">Online retail</li>
-                <li class="industries__domain-item">Marketing</li>
-                <li class="industries__domain-item">E-commerce</li>
-                <li class="industries__domain-item">Travel & hospitality</li>
-                <li class="industries__domain-item">Blockchain</li>
-                <li class="industries__domain-item">FinTech</li>
-                <li class="industries__domain-item">Automotive</li>
-                <li class="industries__domain-item">AR & VR</li>
-                <li class="industries__domain-item">Gaming & mobile apps</li>
+                <div class="industries__domains-container">
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Healthcare</li>
+                    </div>
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Internet of things</li>
+                    </div>
+                </div>
+                <div class="industries__domains-container">
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Online retail</li>
+                    </div>
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Marketing</li>
+                    </div>
+                </div>
+                <div class="industries__domains-container">
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">E-commerce</li>
+                    </div>
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Travel & hospitality</li>
+                    </div>
+                </div>
+                <div class="industries__domains-container">
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Blockchain</li>
+                    </div>
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">FinTech</li>
+                    </div>
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Automotive</li>
+                    </div>
+                </div>
+                <div class="industries__domains-container">
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">AR & VR</li>
+                    </div>
+                    <div class="industries__domans-container-block">
+                        <img class="industries__ok-item" src="/img/ok_icon.svg" alt="ok_icon">
+                        <li class="industries__domain-item">Gaming & mobile apps</li>
+                    </div>
+                </div>
             </ul>
             <p class="industries__text">
                 We have branches, clients, and remote teams in different parts of the world. Our main targets are such
@@ -92,6 +135,30 @@
             margin: 0;
             font-size: 17px;
             line-height: 1.6;
+        }
+
+        .industries__domains-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 -12px -16px;
+        }
+
+        .industries__domains-container {
+            display: flex;
+        }
+
+        .industries__domans-container-block {
+            display: flex;
+            align-items: center;
+            margin: 0 0 16px;
+            padding: 0 12px;
+        }
+
+        .industries__domain-item {}
+
+        .industries__ok-item {
+            width: 20px;
+            height: 24px;
         }
     </style>
 </section>
