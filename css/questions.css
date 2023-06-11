@@ -10,6 +10,5 @@ img {
     display: block;
 }
 :root {
-    background-color: aqua;
     scroll-behavior: smooth;
 }
