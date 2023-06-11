@@ -99,6 +99,10 @@
     letter-spacing: 4px;
 }
 
+.industries__button:hover {
+    background-color: #8d99ff;
+}
+
 @media screen and (min-width: 478px) {
     .industries {
         flex-direction: row;
