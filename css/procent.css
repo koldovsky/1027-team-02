@@ -1,0 +1,65 @@
+.procent__section {
+    background-color: var(--background-gray-color);
+}
+
+.procent__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 65px 30px;
+    list-style-type: none;
+}
+
+.procent__satistics {
+    font-size: 62px;
+    letter-spacing: 6px;
+    font-family: var(--main-titles-font);
+    font-weight: 700;
+    color: var(--light-gray-color);
+}
+
+.procent__title {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: var(--main-titles-font);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.procent__text {
+    font-size: 12px;
+    font-family: var(--main-text-font);
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 22px;
+}
+
+
+@media screen and (min-width: 478px) {
+    .procent__content {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 65px 0;
+    }
+
+    .procent__content-info {
+        width: 25%;
+    }
+
+    .procent__satistics {
+        font-size: 110px;
+        letter-spacing: 8px;
+    }
+
+    .procent__title {
+        font-size: 30px;
+    }
+
+    .procent__text {
+        font-size: 13px;
+    }
+}
