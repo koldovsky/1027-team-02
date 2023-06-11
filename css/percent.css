@@ -1,8 +1,8 @@
-.procent__section {
+.percent__section {
     background-color: var(--background-gray-color);
 }
 
-.procent__content {
+.percent__content {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -11,7 +11,7 @@
     list-style-type: none;
 }
 
-.procent__satistics {
+.percent__satistics {
     font-size: 62px;
     letter-spacing: 6px;
     font-family: var(--main-titles-font);
@@ -19,7 +19,7 @@
     color: var(--light-gray-color);
 }
 
-.procent__title {
+.percent__title {
     font-size: 24px;
     letter-spacing: 2px;
     font-family: var(--main-titles-font);
@@ -27,7 +27,7 @@
     font-weight: 700;
 }
 
-.procent__text {
+.percent__text {
     font-size: 12px;
     font-family: var(--main-text-font);
     color: var(--main-text-color);
@@ -38,7 +38,7 @@
 
 
 @media screen and (min-width: 478px) {
-    .procent__content {
+    .percent__content {
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
@@ -46,20 +46,20 @@
         padding: 65px 0;
     }
 
-    .procent__content-info {
+    .percent__content-info {
         width: 25%;
     }
 
-    .procent__satistics {
+    .percent__satistics {
         font-size: 110px;
         letter-spacing: 8px;
     }
 
-    .procent__title {
+    .percent__title {
         font-size: 30px;
     }
 
-    .procent__text {
+    .percent__text {
         font-size: 13px;
     }
 }
