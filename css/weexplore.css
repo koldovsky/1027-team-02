@@ -1,0 +1,51 @@
+.weexplore {
+    background-color: rgb(247 248 249);
+    color: var(--main-text-color);
+    padding-top: 150px;
+    padding-bottom: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.weexplore__text {
+    color: rgb(102,102,102);
+    font-family: var(--main-text-font);
+    text-align: center;
+    font-size: inherit;
+}
+
+.weexplore__subtitle {
+    color: black;
+    text-align: center;
+    bottom: 300px;
+}
+
+.weexplore__description {
+ color: rgb(102,102,102);
+ text-align: center;
+ padding: 50px;
+}
+
+.weexplore__img {
+    width: 100%;
+}
+
+.weexplore__title {
+ color: black;
+ text-align: left;
+ padding: auto;
+}
+
+.weexplore__content {
+    color: rgb(102,102,102);
+    vertical-align: baseline;
+    padding: 15px;
+    left: 15px;
+    top: 50px;
+}
+
+.weexplore_button {
+    color:#21243d;
+    display: inline-block;
+    font-weight: 700;
+}

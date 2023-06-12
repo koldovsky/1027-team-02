@@ -1,32 +1,78 @@
-<section class="contacts" id="contacts">
-    <div class="contacts__title">
-        <h2 class="contacts__title-text">contact us</h2>
+<section class="header-contact">
+    <div class="header-contact__title">
+        <h2><span class="header-contact__title-text">Contacts us</span></h2>
     </div>
-    <div class="contacts__feedback">
-        <div class="contacts__feedback-info">
-            <h2>INSIGHTS WE EXPLORE</h2>
-            <p>GET IN TOUCH</p>
-            <p>Feel free to contact us for any business, media, 
-                or personal inquiries:</p>
-            <address class="contacts__feedback-address"> 
-                <span class="address">ADDRESS</span>
-                130 Post Ave, Westbury, NY 11590, USA
-            </address>
-            <p class="contacts__feedback-phone">phone</p>
-            <a href="tel:+1 (234) 567 89 00" class="contacts__feedback-numbers">+1 (234) 567 89 00</a>
-            <a href="tel:+1 (234) 567 89 01" class="contacts__feedback-numbers">+1 (234) 567 89 01</a>
-            
+</section>
+
+<section class="contacts__form container">
+    <div class="contacts__form-left">
+        <p class="contacts__form-left-info-header">INSIGHTS WE EXPLORE</p>
+        <p class="contacts__form-left-info-subtitle">GET IN TOUCH</p>
+        <p class="contacts__form-left-info">
+            Feel free to contact us for any business, media, or personal
+            inquiries:
+        </p>
+        <address class="contacts__form-left-address">
+            <span class="contacts__form-left-address-label">ADDRESS</span><br />
+            130 Post Ave, Westbury, NY 11590, USA
+        </address>
+        <p class="contacts__form-left-phone">phone</p>
+        <a href="tel:+1 (234) 567 89 00" class="contacts__form-left-number"
+            >+1 (234) 567 89 00</a
+        ><br />
+
+        <a href="tel:+1 (234) 567 89 01" class="contacts__form-left-number"
+            >+1 (234) 567 89 01</a
+        >
+    </div>
+    <div class="contacts__form-right">
+        <div class="contacts__form-right-input-item">
+            <input
+                class="contacts__form-right-input"
+                id="input-name"
+                type="text"
+                name="name"
+                placeholder="Enter your full name*"
+            />
         </div>
-        <form class="contacts__feedback-form">
-            <input type="text" name="name" placeholder="Enter your full name*">
-            <input type="tel" name="tel" placeholder="Enter your phone number*">
-            <input type="email" name="email" placeholder="Enter your e-mail*">
-            <input type="text" name="text" placeholder="Type your message">
-        </form>
+        <div class="contacts__form-right-input-item">
+            <input
+                class="contacts__form-right-input"
+                id="input-tel"
+                type="tel"
+                name="tel"
+                placeholder="Enter your phone number*"
+            />
+        </div>
+        <div class="contacts__form-right-input-item">
+            <input
+                class="contacts__form-right-input"
+                id="input-email"
+                type="email"
+                name="email"
+                placeholder="Enter your e-mail*"
+            />
+        </div>
+        <div class="contacts__form-right-input-item">
+            <input
+                class="contacts__form-right-input"
+                id="input-message"
+                type="text"
+                name="text"
+                placeholder="Type your message"
+            />
+        </div>
+        <a href="#" class="contacts__form-right-button" id="send_message"
+            >request a quote</a
+        >
     </div>
-    <div class="contacts__map">
-        <iframe class="contacts__map-place" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d25068.34694862798!2d30.51562617014982!3d50.45010030158026!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1686070142822!5m2!1sru!2sua" width="600" height="450"></iframe>
-    </div>
-     
-    
+</section>
+
+<section class="map">
+    <iframe
+        class="map__item"
+        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d25068.34694862798!2d30.51562617014982!3d50.45010030158026!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1686070142822!5m2!1sru!2sua"
+        width="600"
+        height="450"
+    ></iframe>
 </section>

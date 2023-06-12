@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Ubuntu:wght@300;400&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+:root {
+    --text-color: #666666;
+    scroll-behavior: smooth;
+}
+.questions {
+    padding: 150px 30px 100px 20px;
+}
+h4 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-color);
+}
+h2 {
+    font-family: Rajdhani, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+h3 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-top: 25px;
+}
+p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--text-color);
+    margin-top: 25px;
+}
+.first-part span {
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    margin-left: 6px;
+}
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+li {
+    margin-top: 15px;
+} 
+.mark {
+    width: 19px;
+}
