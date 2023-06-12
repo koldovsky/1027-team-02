@@ -1,0 +1,24 @@
+.weexplore {
+    background-color: rgb(247 248 249);
+    color: var(--main-text-color);
+    padding-top: 150px;
+    padding-bottom: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.weexplore__text {
+    color: rgb(102,102,102);
+    text-align: center;
+    font-size: inherit;
+}
+
+.weexplore__subtitle {
+    color: black;
+    text-align: center;
+}
+
+.weexplore__description {
+ color: rgb(102,102,102);
+ text-align: center;
+}
