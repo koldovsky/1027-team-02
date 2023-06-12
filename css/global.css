@@ -7,6 +7,11 @@
 }
 
 :root {
+    --clients-background-color: rgb(247,248,249,1);    --clients-text-color: #666666;
+    --clients-title-color: rgb(102,102,102);
+    --clients-big-title-color: #21243d;
+    --light-gray-color: rgb(221, 225, 230);
+    --background-gray-color: #f5f5f5;
     --main-theme-color: rgb(33, 36, 61);
     --main-text-color: rgb(102, 102, 102);
     --main-text-font: Ubuntu, sans-serif;

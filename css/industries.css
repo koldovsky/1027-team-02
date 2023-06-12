@@ -1,0 +1,140 @@
+.industries {
+    display: flex;
+    flex-direction: column;
+    color: var(--main-text-color);
+    font-family: var(--main-text-font);
+    font-weight: 300;
+}
+
+.industries__hero-img {
+    width: 100%;
+}
+
+.industries__content {
+    padding: 100px 30px;
+    box-sizing: border-box;
+}
+
+.industries__heading {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.industries__title {
+    font-family: var(--main-titles-font);
+    letter-spacing: 4px;
+    font-size: 38px;
+    color: var(--main-theme-color);
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+}
+
+.industries__subtitle {
+    display: block;
+    margin: 25px 0;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.industries__description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.industries__text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.industries__domains-list,
+.industries__targets-list {
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px 24px;
+    font-size: 14px;
+}
+
+.industries__domain-item,
+.industries__target-item {
+    display: flex;
+    align-items: center;
+}
+
+.industries__domain-item::before,
+.industries__target-item::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(/img/ok_icon.svg) no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+}
+
+.industries__target-item::before {
+    background-image: url(/img/targets.svg);
+}
+
+.industries__button {
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 17px;
+    display: inline-block;
+    background-color: #98d2c3;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    padding: 19px 48px;
+    cursor: pointer;
+    font-family: var(--main-titles-font);
+    letter-spacing: 4px;
+}
+
+.industries__button:hover {
+    background-color: #8d99ff;
+}
+
+@media screen and (min-width: 478px) {
+    .industries {
+        flex-direction: row;
+    }
+
+    .industries__hero-img {
+        width: 50%;
+        object-fit: cover;
+        object-position: 0;
+    }
+
+    .industries__content {
+        max-width: 630px;
+        margin: 0 auto;
+        padding: 150px 30px;
+    }
+
+    .industries__heading {
+        font-size: 13px;
+    }
+
+    .industries__title {
+        font-size: 50px;
+        letter-spacing: 7px;
+    }
+
+    .industries__domains-list,
+    .industries__targets-list {
+        font-size: 15px;
+    }
+
+    .industries__button {
+        padding: 16px 26px;
+    }
+}
