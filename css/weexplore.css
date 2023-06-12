@@ -32,5 +32,20 @@
 
 .weexplore__title {
  color: black;
+ text-align: left;
+ padding: auto;
+}
 
+.weexplore__content {
+    color: rgb(102,102,102);
+    vertical-align: baseline;
+    padding: 15px;
+    left: 15px;
+    top: 50px;
+}
+
+.weexplore_button {
+    color:#21243d;
+    display: inline-block;
+    font-weight: 700;
 }
