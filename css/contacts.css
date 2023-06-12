@@ -16,9 +16,9 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding-top: 50px;
+    padding: 50px 150px 50px 150px;
     min-width: 600px;
-    margin: 0 auto;
+
     background-color: #f7f7f7;
 }
 
@@ -26,7 +26,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .contacts__form-left-info {
@@ -56,7 +56,6 @@
     align-items: left;
     background-color: white;
     padding: 20px;
-    height: 100%;
 }
 
 .contacts__form-right-input-item {
