@@ -53,9 +53,10 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     background-color: white;
     padding: 20px;
+    height: 100%;
 }
 
 .contacts__form-right-input-item {
@@ -66,14 +67,17 @@
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    border-radius: none;
 }
 
 .contacts__form-right-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f7f7f7;
+    background-color: blue;
     color: #333;
     text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .map {
