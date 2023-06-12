@@ -45,7 +45,6 @@
 
 .carousel__track-container {
     display: flex;
-    flex: 0 0 50%;
     flex-direction: column;
     float: left;
     padding-left: 35px;
@@ -79,6 +78,7 @@
 }
 
 .carousel__list {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     font-family: var(--main-text-font);
@@ -90,8 +90,20 @@
     margin-bottom: 16px;
 }
 
-@media (min-width: 900px) {
-    .carousel__track-container {
-        flex: 0 0 33.33%;
-    }
+.services ul {
+    list-style: none;
+}
+
+ .services ul li::before {
+    content: url(../img/list-marker.svg);
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+
+    width: 20px; 
+    height: 24px;
+    max-width: 20px;
+    margin-right: 10px;
+
+   
 }
