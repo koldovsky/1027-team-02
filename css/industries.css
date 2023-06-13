@@ -75,13 +75,13 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: url(/img/ok_icon.svg) no-repeat;
+    background: url(../img/ok_icon.svg) no-repeat;
     background-size: contain;
     margin-right: 8px;
 }
 
 .industries__target-item::before {
-    background-image: url(/img/targets.svg);
+    background-image: url(../img/targets.svg);
 }
 
 .industries__button {
@@ -97,9 +97,11 @@
     cursor: pointer;
     font-family: var(--main-titles-font);
     letter-spacing: 4px;
+    transition: background 1s;
 }
 
 .industries__button:hover {
+    transition: background 1s;
     background-color: #8d99ff;
 }
 
