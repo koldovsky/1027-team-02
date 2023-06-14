@@ -1,5 +1,5 @@
 .header-contact {
-    background-color: #98d2c3;
+    background-color: var(--contacts-backround-color-title);
     text-align: center;
     padding: 3em 0;
 }
@@ -19,7 +19,7 @@
     padding: 50px 150px 50px 150px;
     min-width: 600px;
 
-    background-color: #f7f7f7;
+    background-color: var(--background-gray-color);
 }
 
 .contacts__form-left {
@@ -32,7 +32,6 @@
 .contacts__form-left-info {
     margin-bottom: 10px;
 }
-
 
 .contacts__form-left-address {
     margin-bottom: 10px;
@@ -55,7 +54,7 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    background-color: white;
+    background-color: var(--contacts-backround-color-form);
     padding: 20px;
 }
 
