@@ -1,19 +1,35 @@
 .quote-carousel {
     background-color: #f7f8f9;
+    font-family: var(--main-text-font);
+    color: var(--main-text-color);
 }
 
-.quote-carousel__slide {
-    font-family: var(--main-titles-font);
-    font-weight: 700;
-    color: var(--main-theme-color);
-    letter-spacing: 0.1;
-    line-height: 1.4;
-    size: 32px;
-    text-align: center;
-}
-
-.quote-carousel__slide__img {
+.quote-carousel__slide-img {
     width: 70px;
     height: auto;
     margin: auto;
+}
+
+.quote-carousel__slide-text {
+    font-family: var(--main-titles-font);
+    color: var(--main-theme-color);
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    line-height: 33.6px;
+    text-align: center;
+}
+
+.author {
+    color: var(--main-theme-color);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.author__position {
+    color: var(--main-text-color);
+    font-weight: 400;
 }
