@@ -15,6 +15,7 @@
     --background-gray-color: #f5f5f5;
     --main-theme-color: rgb(33, 36, 61);
     --main-text-color: rgb(102, 102, 102);
+    --text-color: #666666;
     --main-text-font: Ubuntu, sans-serif;
     --main-titles-font: Rajdhani, sans-serif;
     scroll-behavior: smooth;
