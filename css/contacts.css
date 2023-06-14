@@ -53,8 +53,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    background-color: var(--contacts-backround-color-form);
+    background-color: white;
     padding: 20px;
 }
 
@@ -67,6 +66,7 @@
     padding: 10px;
     box-sizing: border-box;
     border-radius: none;
+    background-color: var(--background-gray-color);
 }
 
 .contacts__form-right-button {
@@ -85,5 +85,6 @@
 
 .map__item {
     width: 100%;
+    height: 100vh;
     margin-top: 20px;
 }
