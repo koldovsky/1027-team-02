@@ -43,3 +43,9 @@
 .mark {
     width: 19px;
 }
+.questions-accordion {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 75px;
+}
