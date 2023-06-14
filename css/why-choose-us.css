@@ -162,6 +162,8 @@
     font-weight: 600;
     letter-spacing: 3.575px;
     line-height: 17.16px;
+    text-decoration-line: none;
+    color: #ffffff;
 }
 
 @media (min-width: 768px){
