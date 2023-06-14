@@ -5,31 +5,29 @@
     padding-bottom: 140px;
     padding-left: 40px;
     padding-right: 40px;
-    
 }
 
 .weexplore__text {
     color: rgb(102,102,102);
     font-family: var(--main-text-font);
     text-align: center;
-    font-size: inherit;
+    
 }
 
 .weexplore__subtitle {
     color: black;
     text-align: center;
-    bottom: 20px;
+    
 }
 
 .weexplore__description {
  color: rgb(102,102,102);
  text-align: center;
- padding: 50px;
+ 
 }
 
 .weexplore__title {
  color: black;
- text-align: left;
  padding: auto;
 }
 
@@ -40,8 +38,23 @@
     text-align: center;
 }
 
-.weexplore_button {
+.weexplore__button {
     color:#21243d;
     display: inline-block;
     font-weight: 700;
+    text-decoration: none;
 }
+
+.weexplore__button:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+@media (min-width: 768px) {
+     .weexplore__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+      } 
+    }
