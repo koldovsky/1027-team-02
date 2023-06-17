@@ -56,3 +56,6 @@
     font-size: 17px;
     font-weight: 300;
 }
+.accordion-button svg {
+    transition: all 0.35 ease-in-out;
+}
