@@ -1,7 +1,7 @@
 .header-contact {
-    background-color: var(--contacts-backround-color-title);
     text-align: center;
     padding: 3em 0;
+    background-color: var(--contacts-background-color-title);
 }
 
 .header-contact__title-text {
@@ -53,7 +53,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--contacts-backround-color-right-form);
     padding: 20px;
 }
 
