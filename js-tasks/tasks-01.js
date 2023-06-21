@@ -46,9 +46,7 @@ function min(arr, toReturn) {
 
 function warnTheSheep(queue) {
   queue.reverse();
-  var result;
   for (var i = 0; i <= queue.length - 1; i++) {
-    console.log(i);
     if (queue[i + 1] === "wolf") {
       return `Oi! Sheep number ${i + 1}! You are about to be eaten by a wolf!`;
     }
@@ -67,3 +65,13 @@ function maps(x) {
   }
   return x1;
 }
+
+//Find the first non-consecutive number https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
+
+function firstNonConsecutive(arr) {
+  for (var i = 0; i < arr.length - 1; i++) {
+    if (arr[i + 1] - arr[i] !== 1 && i + 1 <= arr.length - 1) return arr[i + 1];
+  }
+  return null;
+}
+
