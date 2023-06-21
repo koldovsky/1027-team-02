@@ -47,12 +47,11 @@ function min(arr, toReturn) {
 function warnTheSheep(queue) {
   queue.reverse();
   for (var i = 0; i <= queue.length - 1; i++) {
-    if (queue[i + 1] === "wolf") {
+    if (queue[i + 1] === "wolf")
       return `Oi! Sheep number ${i + 1}! You are about to be eaten by a wolf!`;
-    }
-    if (queue[i] === "wolf") {
+  
+    if (queue[i] === "wolf")
       return "Pls go away and stop eating my sheep";
-    }
   }
 }
 
