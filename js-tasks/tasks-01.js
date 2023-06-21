@@ -5,4 +5,10 @@ function litres(time) {
     return getWatter ;
   }
 
+  //https://www.codewars.com/users/RomanButs/completed_solutions
+
+  function stringToArray(string) {
+    var words = string.split(" ");
+    return words;
+}
 
