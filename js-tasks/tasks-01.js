@@ -57,3 +57,13 @@ function warnTheSheep(queue) {
     }
   }
 }
+
+// Beginner - Lost Without a Map https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
+
+function maps(x) {
+  var x1 = new Array();
+  for (var i = 0; i <= x.length - 1; i++) {
+    x1[i] = x[i] * 2;
+  }
+  return x1;
+}
