@@ -112,6 +112,7 @@
 
     .industries__hero-img {
         width: 50%;
+        max-height: 977px;
         object-fit: cover;
         object-position: 0;
     }
