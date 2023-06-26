@@ -3,6 +3,7 @@ document.addEventListener('partialsLoaded', () => {
     import('./accordion.js');
     import('./clients.js');
     import('./weexplore.js');
+    import('./process.js');
 });
 
 
