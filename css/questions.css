@@ -9,7 +9,7 @@
 }
 .questions h2 {
     font-family: Rajdhani, sans-serif;
-    font-size: 38px;
+    font-size: 22px;
     font-weight: 700;
     margin-top: 20px;
 }
@@ -33,6 +33,10 @@
     color: var(--text-color);
     margin-left: 6px;
 }
+.check-mark {
+    display: flex;
+    align-items: center;
+}
 .questions ul {
     margin-top: 20px;
     list-style-type: none;
@@ -43,9 +47,38 @@
 .mark {
     width: 19px;
 }
-.questions-accordion {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    height: 75px;
+.second-part {
+    margin-top: 40px;
+}
+.accordion-button svg {
+    margin-top: 20px;
+}
+.accordion-button {
+  display: flex;
+  align-items: center;
+  border: 0;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.accordion-button p {
+    font-weight: 500;
+    text-align: left;
+    color: black;
+    margin-bottom: 20px;
+}
+.border-grey {
+    height: 1px;
+    background-color: var(--text-color);
+    width: 100%;
+    margin-top: 20px;
+}
+.accordion-text {
+  font-family: Ubuntu, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
 }

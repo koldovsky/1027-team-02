@@ -5,12 +5,17 @@
     padding-bottom: 140px;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 17px; 
+    min-width: 320px;
+    margin-top: 150px;
 }
 
 .weexplore__text {
     color: rgb(102, 102, 102);
     font-family: var(--main-text-font);
     text-align: center;
+    font-size: 13px;
+    height: 13px;
 }
 
 .weexplore__subtitle {
@@ -25,7 +30,9 @@
 
 .weexplore__title {
     color: black;
-    margin-top: 0;
+    font-size: 13px;
+    text-align: center;
+
 }
 
 .weexplore__content {
