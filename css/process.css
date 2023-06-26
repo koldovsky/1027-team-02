@@ -54,3 +54,19 @@
 .steps {
     list-style-type: none;
 }
+
+.time {
+    padding-right: 20px;
+}
+
+.year {
+    font-size: 38px;
+    line-height: 45.6px;
+    font-family: "Rajdhani" ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.new__year {
+    
+}
