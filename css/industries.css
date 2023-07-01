@@ -89,10 +89,10 @@
     border-radius: 8px;
     font-size: 17px;
     display: inline-block;
-    background-color: #98d2c3;
+    background-color: var(--contacts-background-color-title);
     text-transform: uppercase;
     font-weight: 700;
-    color: white;
+    color: var(--text-white-color);
     padding: 19px 48px;
     cursor: pointer;
     font-family: var(--main-titles-font);
@@ -102,7 +102,7 @@
 
 .industries__button:hover {
     transition: background 1s;
-    background-color: #8d99ff;
+    background-color: var(--primary-color-button);
 }
 
 @media screen and (min-width: 478px) {
