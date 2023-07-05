@@ -1,3 +1,21 @@
+.weexplore__content {
+transform: scale(0);
+transition: all 0.5s ease-in-out;
+}
+
+.weexplore__content.expanded {
+  transform: scale(1);
+}
+
+
+.weexplore__title-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .weexplore {
     background-color: rgb(247, 248, 249);
     color: var(--main-text-color);
@@ -21,6 +39,7 @@
   .weexplore__subtitle {
     color: black;
     text-align: center;
+    margin: 20px;
   }
   
   .weexplore__description {
