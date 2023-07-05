@@ -4,6 +4,7 @@ document.addEventListener('partialsLoaded', () => {
     import('./clients.js');
     import('./weexplore.js');
     import('./process.js');
+    import('./header.js')
 });
 
 
