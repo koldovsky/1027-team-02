@@ -114,7 +114,7 @@
         width: 50%;
         max-height: 977px;
         object-fit: cover;
-        object-position: 0;
+        object-position: center;
     }
 
     .industries__content {
