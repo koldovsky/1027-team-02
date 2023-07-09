@@ -47,7 +47,7 @@
     }
 
     .percent__content-info {
-        width: 25%;
+        min-width: 25%;
     }
 
     .percent__satistics {

@@ -1,57 +1,62 @@
 .questions {
-    padding: 150px 30px 100px 20px;
+  padding: 150px 30px 100px 20px;
 }
 .questions h4 {
-    font-family: Ubuntu, sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: var(--text-color);
+  font-family: Ubuntu, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-color);
 }
 .questions h2 {
-    font-family: Rajdhani, sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    margin-top: 20px;
+  font-family: Rajdhani, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
 }
 .questions h3 {
-    font-family: Ubuntu, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--text-color);
-    margin-top: 25px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-top: 25px;
 }
 .questions p {
-    font-family: Ubuntu, sans-serif;
-    font-size: 17px;
-    font-weight: 300;
-    color: var(--text-color);
-    margin-top: 25px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--text-color);
+  margin-top: 25px;
 }
 .first-part span {
-    font-family: Ubuntu, sans-serif;
-    font-size: 14px;
-    color: var(--text-color);
-    margin-left: 6px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+  margin-left: 6px;
 }
 .check-mark {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .questions ul {
-    margin-top: 20px;
-    list-style-type: none;
+  margin-top: 20px;
+  list-style-type: none;
 }
 .questions li {
-    margin-top: 15px;
-} 
+  margin-top: 15px;
+}
 .mark {
-    width: 19px;
+  width: 19px;
+}
+.text-slids {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .second-part {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .accordion-button svg {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .accordion-button {
   display: flex;
@@ -63,16 +68,16 @@
   cursor: pointer;
 }
 .accordion-button p {
-    font-weight: 500;
-    text-align: left;
-    color: black;
-    margin-bottom: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+  margin-bottom: 20px;
 }
 .border-grey {
-    height: 1px;
-    background-color: var(--text-color);
-    width: 100%;
-    margin-top: 20px;
+  height: 1px;
+  background-color: var(--text-color);
+  width: 100%;
+  margin-top: 20px;
 }
 .accordion-text {
   font-family: Ubuntu, sans-serif;
@@ -81,4 +86,16 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease;
+}
+@media (min-width: 786px) {
+  .questions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .part {
+    padding: 25px;
+    align-self: center;
+  }
 }

@@ -1,7 +1,8 @@
 .clients {
     padding-top: 100px;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     background-color: var(--clients-background-color);
+    display: flex;
 }
 
 .clients__main-title {
@@ -30,6 +31,20 @@
     vertical-align: baseline;
 }
 
+.clients__they-title {
+    text-align: center;
+    font-family: Rajdhani, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: calc(0.15*1em);
+    color: var(--main-text-color);
+    line-height: 1.2;
+    text-transform: uppercase;
+    vertical-align: baseline;
+}
+
 .clients__text {
     text-align: center;
     margin-top: 20px;
@@ -37,8 +52,7 @@
     font-family: Ubuntu, sans-serif;
     font-size: 18px;
     font-weight: 100;
-    color: var(--clients-title-color);
-    line-height: 1;
+    color: var(---background-gray-color);
     line-height: 1;
     letter-spacing: calc(0*1em)
 }
@@ -49,12 +63,14 @@
     display: inline-block;
     overflow: hidden;
 }
+
 .google-icon {
     transition: 1s;
     display: block;
 }
+
 .google-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -62,12 +78,14 @@
     display: inline-block;
     overflow: hidden;
 }
+
 .dji-icon {
     transition: 1s;
     display: block;
 }
+
 .dji-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -75,12 +93,14 @@
     display: inline-block;
     overflow: hidden;
 }
+
 .areem-icon {
     transition: 1s;
     display: block;
 }
+
 .areem-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -88,12 +108,14 @@
     display: inline-block;
     overflow: hidden;
 }
+
 .kik-icon {
     transition: 1s;
     display: block;
 }
+
 .kik-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -101,12 +123,14 @@
     display: inline-block;
     overflow: hidden;
 }
+
 .airbnb-icon {
     transition: 1s;
     display: block;
 }
+
 .airbnb-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -114,117 +138,192 @@
     display: inline-block;
     overflow: hidden;
 }
+
 .microsoft-icon {
     transition: 1s;
     display: block;
 }
+
 .microsoft-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.mastercard-icon{
+.mastercard-icon {
     display: inline-block;
     overflow: hidden;
 }
-.mastercard-icon{
+
+.mastercard-icon {
     transition: 1s;
     display: block;
 }
+
 .mastercard-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.philips-icon{
+.philips-icon {
     display: inline-block;
     overflow: hidden;
 }
-.philips-icon{
+
+.philips-icon {
     transition: 1s;
     display: block;
 }
+
 .philips-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.slack-icon{
+.slack-icon {
     display: inline-block;
     overflow: hidden;
 }
-.slack-icon{
+
+.slack-icon {
     transition: 1s;
     display: block;
 }
+
 .slack-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.roku-icon{
+.roku-icon {
     display: inline-block;
     overflow: hidden;
 }
-.roku-icon{
+
+.roku-icon {
     transition: 1s;
     display: block;
 }
+
 .roku-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-.walmart-icon{
+.walmart-icon {
     display: inline-block;
     overflow: hidden;
 }
-.walmart-icon{
+
+.walmart-icon {
     transition: 1s;
     display: block;
 }
+
 .walmart-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.viber-icon{
+.viber-icon {
     display: inline-block;
     overflow: hidden;
 }
-.viber-icon{
+
+.viber-icon {
     transition: 1s;
     display: block;
 }
+
 .viber-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.amazon-icon{
+.amazon-icon {
     display: inline-block;
     overflow: hidden;
 }
-.amazon-icon{
+
+.amazon-icon {
     transition: 1s;
     display: block;
 }
+
 .amazon-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
-.whatsapp-icon{
+.whatsapp-icon {
     display: inline-block;
     overflow: hidden;
 }
-.whatsapp-icon{
+
+.whatsapp-icon {
     transition: 1s;
     display: block;
 }
+
 .whatsapp-icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
+
+.tinder-icon {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.tinder-icon {
+    transition: 1s;
+    display: block;
+}
+
+.tinder-icon:hover {
+    transform: scale(1.1);
+}
+
+
+.accordion {
+    background-color: var(--primary-color-button);
+    color: var(--contacts-backround-color-right-form);
+    padding: 18px;
+    width: 25%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 10px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: calc(0.15*1em);
+    line-height: 1.5;
+}
+
+.active,
+.accordion:hover {
+    background-color: var(--contacts-background-color-title);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: var(--clients-background-color);
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-out;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    font-weight: 350;
+    line-height: 1.5;
+    letter-spacing: calc(0.1*1em);
+    margin-top: 20px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
 
 @media(min-width: 320px) {
 
@@ -259,6 +358,41 @@
     .clients__logo-icon {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px;
+    }
+}
+
+
+
+
+@media(min-width: 320px) {
+
+    .clients {
+        display: grid;
+        gap: 5px;
+    }
+}
+
+@media(min-width: 780px) {
+
+    .clients {
+        display: grid;
+        gap: 5px;
+    }
+}
+
+@media(min-width: 990px) {
+
+    .clients {
+        display: grid;
+        gap: 5px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .clients {
+        display: grid;
         gap: 5px;
     }
 }
