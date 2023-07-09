@@ -7,6 +7,8 @@
 
 .title-section__main-block {
     gap: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     box-sizing: border-box;
 
 }
@@ -15,7 +17,7 @@
     display: flex;
     width: 100%;
     padding: 15px;
-    padding-right: 45px;
+    padding-right: 15px;
     border-radius: inherit;
 
 }
@@ -144,4 +146,5 @@
         text-align: center;
         margin: -10px -10px -10px -10px;
     }
+
 }
