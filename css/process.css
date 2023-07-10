@@ -29,6 +29,7 @@
     font-weight: 700;
     color: var(--main-theme-color);
     padding-top: 20px;
+    letter-spacing: 6px;
 
 }
 
@@ -51,7 +52,7 @@
     font-style: normal;
     font-weight: 700;
     padding-top: 20px;
-
+    letter-spacing: 3px;
 }
 
 .steps__regular_step {
