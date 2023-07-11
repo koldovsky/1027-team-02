@@ -62,9 +62,12 @@
     font-family: var(--main-text-font);
     font-style: normal;
     font-weight: 400;
-    color: var(--main-text-color);
     padding-left: 18px;
     max-width: 400px;
+    color: var(--main-text-color);
+}
+
+.steps__regular_line {
 }
 
 .steps {
@@ -75,6 +78,7 @@
     width: 500px;
     height: 200px;
 }
+
 
 @media(max-width:500px) {
     .process__correct{
